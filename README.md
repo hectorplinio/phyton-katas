@@ -10,6 +10,7 @@
 
     - [Kata 1: extractBookNames](#kata-1-extractBookNames)
     - [Kata 2: sumNumbers](#kata-2-sumNumbers)
+    - [Kata 3: findMaxNumber](#kata-3-findMaxNumber)
 
   - [Development](#development)
     - [Style guide](#style-guide)
@@ -42,6 +43,12 @@ For more details, please refer to the [README](src/extractBookNames/README.md) i
 This exercise sums all numbers in an array and returns the total.
 
 For more details, please refer to the [README](src/sumNumbers/README.md) inside the `src/sumNumbers` directory.
+
+### Kata 3: findMaxNumber
+
+This exercise finds and returns the maximum number in an array of numbers.
+
+For more details, please refer to the [README](src/findMaxNumber/README.md) inside the `src/findMaxNumber` directory.
 
 ## Development
 
