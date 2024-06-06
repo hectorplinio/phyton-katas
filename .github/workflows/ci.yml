@@ -18,26 +18,19 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v4
-        with:
-          python-version: "3.12.3" 
 
       - name: Install dependencies
         run: |
-          python -m venv venv
-          source venv/bin/activate
           pip install -r requirements.txt
 
       - name: Run linter
         run: |
-          source venv/bin/activate
           flake8 .
 
       - name: Run formatter
         run: |
-          source venv/bin/activate
           black --check .
 
       - name: Run tests
         run: |
-          source venv/bin/activate
           pytest

@@ -1,5 +1,3 @@
-import pytest
-
 from src.sumNumbers.sumNumbers import sum_numbers
 
 

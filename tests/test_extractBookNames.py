@@ -1,5 +1,7 @@
-import pytest
-from src.extractBookNames.extractBookNames import InputParams, extract_book_names
+from src.extractBookNames.extractBookNames import (
+    InputParams,
+    extract_book_names,
+)
 
 
 def test_not_passing_input_parameters():
@@ -19,7 +21,9 @@ def test_not_passing_input_parameters():
 def test_given_input_params_should_return_books_names():
     input_params = [
         InputParams(
-            name="John", books=["Don Quixote", "The Picture of Dorian Gray"], age=18
+            name="John",
+            books=["Don Quixote", "The Picture of Dorian Gray"],
+            age=18,
         ),
         InputParams(
             name="Peter",
@@ -92,7 +96,9 @@ def test_with_duplicate_names_different_books():
 
 def test_with_large_number_of_books():
     input_params = [
-        InputParams(name="Person", books=[f"Book{i}" for i in range(100)], age=25)
+        InputParams(
+            name="Person", books=[f"Book{i}" for i in range(100)], age=25
+        )
     ]
     books_names = extract_book_names(input_params)
     assert books_names == [f"Book{i}" for i in range(100)]
