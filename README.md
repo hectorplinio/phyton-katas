@@ -1,14 +1,15 @@
-# Phyton Katas Exercises
+# Python Katas Exercises
 
 ## Table of contents
 
-- [Katas Exercises](#phyton-katas-exercises)
+- [Katas Exercises](#python-katas-exercises)
 
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Usage](#usage)
 
     - [Kata 1: extractBookNames](#kata-1-extractBookNames)
+    - [Kata 2: sumNumbers](#kata-2-sumNumbers)
 
   - [Development](#development)
     - [Style guide](#style-guide)
@@ -34,7 +35,13 @@ This repository contains several exercises implemented in Python. Below are the 
 
 This exercise extracts all book names from an array of people, each with their own array of books.
 
-For more details, please refer to the [README](katas/extractBookNames/README.md) inside the `katas/extractBookNames` directory.
+For more details, please refer to the [README](src/extractBookNames/README.md) inside the `src/extractBookNames` directory.
+
+### Kata 2: sumNumbers
+
+This exercise sums all numbers in an array and returns the total.
+
+For more details, please refer to the [README](src/sumNumbers/README.md) inside the `src/sumNumbers` directory.
 
 ## Development
 
